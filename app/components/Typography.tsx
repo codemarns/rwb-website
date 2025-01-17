@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { cn } from "@/app/lib/cn";
 
-type TitleProps = {
+type TypographyProps = {
   id?: string;
   className?: string;
   children?: React.ReactNode;
@@ -12,18 +12,19 @@ type TitleProps = {
   bold?: boolean;
   as: "default" | "link";
   slug?: string;
+  onClick?: () => void;
 };
 
-const titleStyles = {
+const typoStyles = {
   root: {
     base: "",
     size: {
-      XXL: "text-2xl leading-9",
-      XL: "text-xl leading-8",
-      LG: "text-lg leading-7",
-      MD: "text-base leading-6",
-      SM: "text-sm leading-5",
-      XS: "text-xs leading-4",
+      XXL: "xl:text-2xl text-xl",
+      XL: "xl:text-xl text-lg",
+      LG: "xl:text-lg text-base",
+      MD: "xl:text-base text-sm",
+      SM: "xl:text-sm text-xs",
+      XS: "text-xs",
     },
     theme: {
       dark: "text-primary-100",
@@ -32,7 +33,9 @@ const titleStyles = {
   },
 };
 
-export const Typography: React.FC<TitleProps> = (props) => {
+export const Typography: React.FC<TypographyProps> = (props) => {
+  const { root } = typoStyles;
+
   const {
     id,
     className,
@@ -42,12 +45,12 @@ export const Typography: React.FC<TitleProps> = (props) => {
     theme = "dark",
     as = "default",
     slug = "",
+    onClick,
   } = props;
-
-  const { root } = titleStyles;
 
   const baseClasses = cn(
     "TYPOGRAPHY",
+    size, // use as class identifier. Check global.css
     root.base,
     root.size[size],
     root.theme[theme],
@@ -57,7 +60,7 @@ export const Typography: React.FC<TitleProps> = (props) => {
 
   if (as === "link")
     return (
-      <Link id={id} href={slug} className={baseClasses}>
+      <Link id={id} href={slug} className={baseClasses} onClick={onClick}>
         {children}
       </Link>
     );

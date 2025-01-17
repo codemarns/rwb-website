@@ -2,21 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============ Responsive Texts: START ============ */
+
+h1 {
+  font-size: clamp(1.875rem, calc(4vw + 1rem), 3.75rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
-body {
-  /* color: var(--foreground);
-  background: var(--background); */
-  background: black;
-  font-family: Arial, Helvetica, sans-serif;
+h2 {
+  font-size: clamp(1.7rem, calc(4vw + 0.85rem), 3rem);
 }
+
+h3 {
+  font-size: clamp(1.525rem, calc(4vw + 0.68rem), 2.25rem);
+}
+
+h4 {
+  font-size: clamp(1.35rem, calc(4vw + 0.51rem), 1.875rem);
+}
+
+h5, p.XXL {
+  font-size: clamp(1.175rem, calc(4vw + 0.34rem), 1.5rem);
+}
+
+h6, p.XL {
+  font-size: clamp(1rem, calc(4vw + 0.17rem), 1.25rem);
+}
+
+p.LG {
+  font-size: clamp(0.93rem, calc(4vw + 0.155rem), 1.125rem);
+}
+
+p.MD {
+  font-size: clamp(0.87rem, calc(4vw + 0.14rem), 1rem);
+}
+
+p.SM {
+  font-size: clamp(0.81rem, calc(4vw + 0.125rem), 0.875rem);
+}
+
+p.XS {
+  font-size: clamp(0.75rem, calc(4vw + 0.11rem), 0.75rem);
+}
+
+/* ============ Responsive Texts: END ============ */

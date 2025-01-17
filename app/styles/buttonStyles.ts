@@ -19,7 +19,7 @@ export const buttonStyles = {
       },
       outline: {
         base: "border-2",
-        default: "border-accent-500 hover:bg-opaque-white",
+        default: "border-accent-500 hover:bg-accent-500/10",
         disable: "aria-disabled:border-accent-400",
       },
     },

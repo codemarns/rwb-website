@@ -57,6 +57,12 @@ export default {
         xs: "425px",
         // => @media (min-width: 425px) { ... }
       },
+      maxWidth: {
+        '1376': '1376px',
+      },
+      fontFamily: {
+        manrope: ['var(--font-manrope)'],
+      },
     },
   },
   plugins: [],
