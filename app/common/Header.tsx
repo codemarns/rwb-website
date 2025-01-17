@@ -70,8 +70,10 @@ export const Header = () => {
       >
         <Container
           className={cn(
-            "max-w-[1728px] p-4 flex items-center justify-between gap-5 rounded-xl transition-all",
-            !float ? "" : "bg-white/80 shadow-lg backdrop-blur-xl"
+            "max-w-[1728px] p-4 flex items-center justify-between gap-5 border rounded-xl transition-all",
+            !float
+              ? "border-transparent"
+              : "bg-white/80 border-white shadow-lg backdrop-blur-xl"
           )}
         >
           <Link href={"/"}>
