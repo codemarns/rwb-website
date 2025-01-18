@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/components/Button";
 import { Heading } from "@/app/components/Heading";
 import { Container } from "@/app/components/Container";
@@ -7,6 +8,8 @@ import { Typography } from "@/app/components/Typography";
 import { VideoOverlay } from "./components/VideoOverlay";
 
 export const Hero = () => {
+  const router = useRouter();
+
   return (
     <section
       id="home-hero-section"
@@ -26,10 +29,20 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-8">
-          <Button size="XL" variant="solid" className="w-52 sm:w-60">
+          <Button
+            size="XL"
+            variant="solid"
+            className="w-52 sm:w-60"
+            onClick={() => router.push("/contact-us")}
+          >
             Get Started
           </Button>
-          <Button size="XL" variant="outline" className="w-52 sm:w-60">
+          <Button
+            size="XL"
+            variant="outline"
+            className="w-52 sm:w-60"
+            onClick={() => router.push("/products")}
+          >
             Learn More
           </Button>
         </div>

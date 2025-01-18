@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/components/Button";
 import { Section } from "@/app/components/Section";
 import { Heading } from "@/app/components/Heading";
@@ -9,6 +10,8 @@ import { Typography } from "@/app/components/Typography";
 import { home_product_data } from "@/app/data";
 
 export const Hero = () => {
+  const router = useRouter();
+
   return (
     <Section
       id="partners-hero-section"
@@ -79,6 +82,7 @@ export const Hero = () => {
             size="XL"
             variant="solid"
             className="w-52 sm:w-60 mx-auto sm:ml-0"
+            onClick={() => router.push("/products")}
           >
             Learn More
           </Button>

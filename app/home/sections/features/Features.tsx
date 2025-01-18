@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Card } from "./components/Card";
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/components/Button";
 import { Heading } from "@/app/components/Heading";
 import { Section } from "@/app/components/Section";
@@ -10,6 +11,8 @@ import { Typography } from "@/app/components/Typography";
 import { home_key_feature_data } from "@/app/data";
 
 export const Features = () => {
+  const router = useRouter();
+
   return (
     <Section
       id="home-features-section"
@@ -46,7 +49,12 @@ export const Features = () => {
               effortlessly turns challenges into new opportunities for success.
             </Typography>
           </div>
-          <Button size="XL" variant="solid" className="w-52 sm:w-60">
+          <Button
+            size="XL"
+            variant="solid"
+            className="w-52 sm:w-60"
+            onClick={() => router.push("/our-platform")}
+          >
             Know More
           </Button>
         </div>
