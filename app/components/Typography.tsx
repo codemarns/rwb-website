@@ -17,7 +17,7 @@ type TypographyProps = {
 
 const typoStyles = {
   root: {
-    base: "",
+    base: "leading-normal",
     size: {
       XXL: "xl:text-2xl text-xl",
       XL: "xl:text-xl text-lg",
@@ -52,7 +52,7 @@ export const Typography: React.FC<TypographyProps> = (props) => {
     "TYPOGRAPHY",
     size, // use as class identifier. Check global.css
     root.base,
-    root.size[size],
+    // root.size[size],
     root.theme[theme],
     { ["font-semibold"]: bold },
     className

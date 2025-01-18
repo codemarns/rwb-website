@@ -7,13 +7,13 @@ import { Heading } from "@/app/components/Heading";
 import { Section } from "@/app/components/Section";
 import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
-import { key_feature_data } from "@/app/data";
+import { home_key_feature_data } from "@/app/data";
 
 export const Features = () => {
   return (
     <Section
-      id="features"
-      className="relative bg-black pb-40 md:pb-52 xl:pb-64 flex items-center justify-center"
+      id="features-section"
+      className="relative pb-40 md:pb-52 xl:pb-64 flex items-center justify-center bg-black"
     >
       <Image
         priority
@@ -52,7 +52,7 @@ export const Features = () => {
         </div>
 
         <div className="z-[1] grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
-          {key_feature_data.map((item, index) => (
+          {home_key_feature_data.map((item, index) => (
             <Card key={index} {...item} />
           ))}
         </div>

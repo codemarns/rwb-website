@@ -33,8 +33,7 @@ export const header_menu: MenuProps[] = [
   },
 ];
 
-
-export const key_feature_data: KeyFeatureProps[] = [
+export const home_key_feature_data: KeyFeatureProps[] = [
   {
     id: "fast-onboarding",
     title: "Fast Onboarding",
@@ -60,3 +59,278 @@ export const key_feature_data: KeyFeatureProps[] = [
     image: "/competitive-fee.svg",
   },
 ];
+
+export const home_product_data: KeyFeatureProps[] = [
+  {
+    id: "live-casino",
+    title: "Live Casino",
+    description: `With our strong portfolio, your live casino section has already a powerful upper hand among your competitors.`,
+    image: "/home-live-casino.png",
+  },
+  {
+    id: "slots",
+    title: "Slots",
+    description: `Offering over a hundred providers with loads of exciting games, you could fully customize and strategize your website to further target and reach more players.`,
+    image: "/home-slots.png",
+  },
+  {
+    id: "sportbooks",
+    title: "Sportbooks",
+    description: `Modern interface, wide sports coverage, convenient live streaming options and loads of personalization to meet your market strategy requirements.`,
+    image: "/home-sportbooks.png",
+  },
+  {
+    id: "esports",
+    title: "Esports",
+    description: `State-of-the-art design, major tournament coverages, user-friendly interface, multi-channel live streaming and a whole lot of customizations.`,
+    image: "/home-esports.png",
+  },
+];
+
+export const home_sports_data = [
+  {
+    id: "",
+    alt: "",
+    image: "/partners/ae_sexy.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/allbet.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/asia_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/bet_games_tv.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/betsoft.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/bigtime_gaming.png",
+  },{
+    id: "",
+    alt: "",
+    image: "/partners/bti.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/databet.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/evolution.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/ezugi.png",
+  },
+
+  {
+    id: "",
+    alt: "",
+    image: "/partners/fantasma.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/gamomat.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/habanero.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/hotbets.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/iconic21.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/jili.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/kalamba_games.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/kiron_interactive.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/live88.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/mascot_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/mg_live.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/microgaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/netent.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/nolimit_city.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/pascal_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/pgsoft.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/play_n_GO.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/playgon.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/playson.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/playtech.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/pragmatic_play.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/push_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/qtech.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/red_tiger.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/relax_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/revolver_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/sa_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/smartsoft_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/sportsradar.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/spribe.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/thunderkick.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/tom_horn.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/triple_pg.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/tvbet.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/txodds.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/vivo_gaming.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/wazdan.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/woohoo.png",
+  },
+  {
+    id: "",
+    alt: "",
+    image: "/partners/yggdrasil.png",
+  },
+]

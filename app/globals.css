@@ -45,3 +45,66 @@ p.XS {
 }
 
 /* ============ Responsive Texts: END ============ */
+
+
+/* ============ Product Section Pattern: START ============ */
+
+#products-section {
+  clip-path: polygon(0% 2.5%, 100% 4.25%, 100% 97.5%, 0 95.75%);
+
+  @media only screen and (min-width: 768px) {
+    clip-path: polygon(0% 5%, 100% 13%, 100% 95%, 0 87%);
+  }
+
+  @media only screen and (min-width: 1280px) {
+    clip-path: polygon(0 5%, 100% 16%, 100% 95%, 0 84%);
+  }
+}
+
+#products-section #products-section-overlay {
+  clip-path: polygon(0% 2.5%, 100% 5%, 100% 97.5%, 0 95%);
+
+  @media only screen and (min-width: 768px) {
+    clip-path: polygon(0% 5%, 100% 15%, 100% 95%, 0 85%);
+  }
+
+  @media only screen and (min-width: 1280px) {
+    clip-path: polygon(0 5%, 100% 18%, 100% 95%, 0 82%);
+  }
+}
+
+/* ============ Product Section Pattern: END ============ */
+
+
+
+#partners-section .slide-to-left {
+  animation: slide-to-left 50s linear infinite;
+  animation-delay: 1s;
+}
+
+#partners-section .slide-to-right {
+  animation: slide-to-right 50s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes slide-to-left {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -8640px;
+  }
+}
+
+@keyframes slide-to-right {
+  0% {
+    left: -6720px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.slick-arrow {
+  display: none !important;
+}

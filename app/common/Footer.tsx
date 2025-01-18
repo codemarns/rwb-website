@@ -30,7 +30,7 @@ export const Footer = () => {
               />
             </Link>
 
-            <Typography as="default" className="lg:max-w-sm md:leading-7">
+            <Typography as="default" className="lg:max-w-sm">
               At RWB Solutions International, we strive to be your premier
               partner in the iGaming industry. Combining innovative technology,
               tailored flexibility, and a wealth of expertise, we empower

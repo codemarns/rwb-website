@@ -3,9 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/app/lib/cn";
-import { useEffect, useRef, useState } from "react";
 import { Button } from "@/app/components/Button";
-import { Container } from "../components/Container";
+import { useEffect, useRef, useState } from "react";
+import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
 import { usePathname, useRouter } from "next/navigation";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
