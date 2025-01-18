@@ -1,13 +1,15 @@
 "use client";
 
 import { Hero } from "./sections/Hero";
-import { FeatureHighlight } from "./sections/FeatureHighlight";
+import { FeatureHighlights } from "./sections/FeatureHighlights";
+import { DynamicFeatures } from "./sections/DynamicFeatures";
 
 export const Client = () => {
   return (
     <>
       <Hero />
-      <FeatureHighlight />
+      <FeatureHighlights />
+      <DynamicFeatures />
     </>
   );
 };

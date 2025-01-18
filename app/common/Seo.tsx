@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/components/Button";
 import { Section } from "@/app/components/Section";
 import { Heading } from "@/app/components/Heading";
@@ -7,6 +8,8 @@ import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
 
 export const Seo = () => {
+  const router = useRouter();
+
   return (
     <Section
       id="seo-section"
@@ -25,7 +28,12 @@ export const Seo = () => {
               unlock the full potential of Asia’s iGaming gateway.
             </Typography>
           </div>
-          <Button size="XL" variant="solid" className="w-60 mx-auto">
+          <Button
+            size="XL"
+            variant="solid"
+            className="w-60 mx-auto"
+            onClick={() => router.push("/contact-us")}
+          >
             Join Now
           </Button>
         </div>

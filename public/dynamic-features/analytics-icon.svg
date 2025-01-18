@@ -1,0 +1,31 @@
+<svg width="225" height="225" viewBox="0 0 225 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_482_1604)">
+<mask id="path-3-inside-1_482_1604" fill="white">
+<path d="M17.6665 17.5H207.667V41.5H17.6665V17.5Z"/>
+</mask>
+<path d="M17.6665 17.5H207.667V41.5H17.6665V17.5Z" fill="#474B65" fill-opacity="0.5"/>
+<path d="M207.667 40.5H17.6665V42.5H207.667V40.5Z" fill="#EE2D2A" mask="url(#path-3-inside-1_482_1604)"/>
+<circle cx="30.6665" cy="29.5" r="4" fill="#868A9E"/>
+<circle cx="46.6665" cy="29.5" r="4" fill="#868A9E"/>
+<circle cx="62.6665" cy="29.5" r="4" fill="#868A9E"/>
+<rect x="17.6665" y="41.5" width="190" height="166" fill="#474B65" fill-opacity="0.5"/>
+</g>
+<rect x="18.1665" y="18" width="189" height="189" rx="7.5" stroke="#EE2D2A"/>
+<rect x="46.6665" y="58.5" width="132" height="132" rx="12" fill="#474B65"/>
+<rect x="136.606" y="104.5" width="16.0612" height="60" rx="4" fill="#DADEEA"/>
+<rect x="114.667" y="124.5" width="16.06" height="40" rx="4" fill="#DADEEA"/>
+<rect x="93.6665" y="120.5" width="16.06" height="44" rx="4" fill="#DADEEA"/>
+<rect x="72.6665" y="140.5" width="16.06" height="24" rx="4" fill="#DADEEA"/>
+<path d="M80.6665 126.5L101.667 106.5L122.667 110.5L144.667 90.5" stroke="#DADEEA" stroke-width="2"/>
+<circle cx="80.6665" cy="126.5" r="5" fill="#474B65" stroke="#DADEEA" stroke-width="2"/>
+<circle cx="101.667" cy="106.5" r="5" fill="#474B65" stroke="#DADEEA" stroke-width="2"/>
+<circle cx="122.667" cy="110.5" r="5" fill="#474B65" stroke="#DADEEA" stroke-width="2"/>
+<circle cx="144.667" cy="90.5" r="5" fill="#474B65" stroke="#DADEEA" stroke-width="2"/>
+<path d="M84.6665 84.5C86.111 84.5 87.5414 84.7845 88.876 85.3373C90.2106 85.8901 91.4232 86.7004 92.4447 87.7218C93.4661 88.7433 94.2764 89.9559 94.8292 91.2905C95.382 92.6251 95.6665 94.0555 95.6665 95.5L84.6665 95.5V84.5Z" fill="#868A9E"/>
+<path d="M94.6665 96.5C94.6665 98.6756 94.0214 100.802 92.8127 102.611C91.604 104.42 89.886 105.83 87.876 106.663C85.866 107.495 83.6543 107.713 81.5205 107.289C79.3867 106.864 77.4267 105.817 75.8883 104.278C74.35 102.74 73.3023 100.78 72.8779 98.646C72.4534 96.5122 72.6713 94.3005 73.5038 92.2905C74.3364 90.2805 75.7463 88.5625 77.5552 87.3538C79.3642 86.1451 81.4909 85.5 83.6665 85.5V96.5H94.6665Z" fill="#DADEEA"/>
+<defs>
+<clipPath id="clip0_482_1604">
+<rect x="17.6665" y="17.5" width="190" height="190" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -7,7 +7,7 @@ import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
 import { feature_highlight_data } from "@/app/data";
 
-export const FeatureHighlight = () => {
+export const FeatureHighlights = () => {
   return (
     <Section
       id="partners-feature-highlight-section"
@@ -42,8 +42,8 @@ export const FeatureHighlight = () => {
                     <Image
                       width={64}
                       height={64}
-                      alt={item.title}
-                      src={item.icon}
+                      alt={item?.title}
+                      src={item?.icon || ""}
                       className="object-contain"
                     />
                   </div>
@@ -51,13 +51,13 @@ export const FeatureHighlight = () => {
                     <Image
                       width={48}
                       height={48}
-                      alt={item.title}
-                      src={item.icon}
+                      alt={item?.title}
+                      src={item?.icon || ""}
                       className="object-contain"
                     />
                   </div>
                   <Typography as="default" size="LG" bold>
-                    {item.title}
+                    {item?.title}
                   </Typography>
                 </div>
               ))}
@@ -80,8 +80,8 @@ export const FeatureHighlight = () => {
             <Image
               width={413}
               height={387}
-              alt={item.title}
-              src={item.image}
+              alt={item?.title}
+              src={item?.image || ""}
               className="object-contain"
             />
           </div>

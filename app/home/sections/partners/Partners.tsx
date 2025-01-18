@@ -102,7 +102,7 @@ export const Partners = () => {
                   width={192}
                   height={112}
                   alt={item.title}
-                  src={item.image}
+                  src={item?.image || ""}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
               </div>
@@ -121,7 +121,7 @@ export const Partners = () => {
                   width={192}
                   height={112}
                   alt={item.title}
-                  src={item.image}
+                  src={item?.image || ""}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
               </div>
@@ -139,7 +139,7 @@ export const Partners = () => {
                   width={192}
                   height={112}
                   alt={item.title}
-                  src={item.image}
+                  src={item?.image || ""}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
               </div>
@@ -161,7 +161,7 @@ export const Partners = () => {
                 width={192}
                 height={112}
                 alt={item.title}
-                src={item.image}
+                src={item?.image || ""}
                 className="object-contain grayscale hover:grayscale-0"
               />
             </div>
@@ -179,7 +179,7 @@ export const Partners = () => {
                 width={192}
                 height={112}
                 alt={item.title}
-                src={item.image}
+                src={item?.image || ""}
                 className="object-contain grayscale hover:grayscale-0"
               />
             </div>
@@ -197,7 +197,7 @@ export const Partners = () => {
                 width={192}
                 height={112}
                 alt={item.title}
-                src={item.image}
+                src={item?.image || ""}
                 className="object-contain grayscale hover:grayscale-0"
               />
             </div>

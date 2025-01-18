@@ -4,31 +4,39 @@ export type MenuProps = {
   name: string;
 }
 
-export type KeyFeatureProps = {
-  id: string;
-  image: string;
-  title: string;
-  description: string;
-}
+// export type KeyFeatureProps = {
+//   id: string;
+//   image: string;
+//   title: string;
+//   description: string;
+// }
 
-export type ProductsProps = {
-  id: string;
-  icon: string;
-  image: string;
-  title: string;
-  description: string;
-}
+// export type ProductsProps = {
+//   id: string;
+//   icon: string;
+//   image: string;
+//   title: string;
+//   description: string;
+// }
 
-export type PartnersProps = {
-  id: string;
-  image: string;
-  title: string;
-}
+// export type PartnersProps = {
+//   id: string;
+//   image: string;
+//   title: string;
+// }
 
-export type FeatureHighlightProps = {
+// export type FeatureProps = {
+//   id: string;
+//   icon: string;
+//   title: string;
+//   image: string;
+//   description: string;
+// }
+
+export type CommonFeatureProps = {
   id: string;
-  icon: string;
   title: string;
-  image: string;
-  description: string;
+  description?: string;
+  icon?: string;
+  image?: string;
 }

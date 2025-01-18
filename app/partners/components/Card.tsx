@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { Typography } from "@/app/components/Typography";
-import { PartnersProps } from "@/app/types/types";
+import { CommonFeatureProps } from "@/app/types/types";
 
-export const Card: React.FC<PartnersProps> = (props) => {
+export const Card: React.FC<CommonFeatureProps> = (props) => {
   return (
     <div className="py-8 xs:py-6 sm:py-8 xl:py-10 space-y-8 flex flex-col items-center justify-center border border-neutral-50">
       <div className="h-28 w-48 hidden lg:flex items-center justify-center">
@@ -12,8 +12,8 @@ export const Card: React.FC<PartnersProps> = (props) => {
           priority
           width={192}
           height={112}
-          alt={props.title}
-          src={props.image}
+          alt={props?.title}
+          src={props?.image || ""}
           className="object-center object-contain"
         />
       </div>
@@ -22,8 +22,8 @@ export const Card: React.FC<PartnersProps> = (props) => {
           priority
           width={144}
           height={84}
-          alt={props.title}
-          src={props.image}
+          alt={props?.title}
+          src={props?.image || ""}
           className="object-center object-contain"
         />
       </div>
@@ -35,7 +35,7 @@ export const Card: React.FC<PartnersProps> = (props) => {
         theme="light"
         className="text-center leading-snug"
       >
-        {props.title}
+        {props?.title}
       </Typography>
     </div>
   );

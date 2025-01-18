@@ -1,4 +1,4 @@
-import { FeatureHighlightProps, KeyFeatureProps, MenuProps, PartnersProps, ProductsProps } from "../types/types";
+import { CommonFeatureProps, MenuProps } from "../types/types";
 
 export const header_menu: MenuProps[] = [
   {
@@ -33,7 +33,7 @@ export const header_menu: MenuProps[] = [
   },
 ];
 
-export const home_key_feature_data: KeyFeatureProps[] = [
+export const home_key_feature_data: CommonFeatureProps[] = [
   {
     id: "fast-onboarding",
     title: "Fast Onboarding",
@@ -60,7 +60,7 @@ export const home_key_feature_data: KeyFeatureProps[] = [
   },
 ];
 
-export const home_product_data: ProductsProps[] = [
+export const home_product_data: CommonFeatureProps[] = [
   {
     id: "live-casino",
     title: "Live Casino",
@@ -91,7 +91,7 @@ export const home_product_data: ProductsProps[] = [
   },
 ];
 
-export const feature_highlight_data: FeatureHighlightProps[] = [
+export const feature_highlight_data: CommonFeatureProps[] = [
   {
     id: "dynamic-layout-builder",
     title: "Dynamic Layout Builder",
@@ -129,8 +129,45 @@ export const feature_highlight_data: FeatureHighlightProps[] = [
   },
 ];
 
+export const dynamic_feature_data: CommonFeatureProps[] = [
+  {
+    id: "security",
+    title: "Security",
+    icon: "/dynamic-features/security-icon.svg",
+    image: "/dynamic-features/security-bg.png",
+    description:"Industry-standard encryption and fraud detection systems."
+  },
+  {
+    id: "scalability",
+    title: "Scalability",
+    icon: "/dynamic-features/scalability-icon.svg",
+    image: "/dynamic-features/scalability-bg.png",
+    description:"Effortlessly manage thousands of concurrent users."
+  },
+  {
+    id: "multi-language",
+    title: "Multi-Language and Multi-Currency Support",
+    icon: "/dynamic-features/multi-language-icon.svg",
+    image: "/dynamic-features/multi-language-bg.png",
+    description:"Reach global audiences with ease."
+  },
+  {
+    id: "analytics",
+    title: "Analytics",
+    icon: "/dynamic-features/analytics-icon.svg",
+    image: "/dynamic-features/analytics-bg.png",
+    description:"Gain actionable insights through real-time reporting tools."
+  },
+  {
+    id: "mobile-optimization",
+    title: "Mobile Optimization",
+    icon: "/dynamic-features/mobile-optimization-icon.svg",
+    image: "/dynamic-features/mobile-optimization-bg.png",
+    description:"Ensure seamless gaming experiences across devices."
+  },
+];
 
-export const partners_data: PartnersProps[] = [
+export const partners_data: CommonFeatureProps[] = [
   {
     id: "",
     title: "AE Sexy",

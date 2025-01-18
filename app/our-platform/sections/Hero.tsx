@@ -53,8 +53,8 @@ export const Hero = () => {
                     <Image
                       width={64}
                       height={64}
-                      alt={item.title}
-                      src={item.icon}
+                      alt={item?.title}
+                      src={item?.icon || ""}
                       className="object-contain"
                     />
                   </div>
@@ -62,13 +62,13 @@ export const Hero = () => {
                     <Image
                       width={48}
                       height={48}
-                      alt={item.title}
-                      src={item.icon}
+                      alt={item?.title}
+                      src={item?.icon || ""}
                       className="object-contain"
                     />
                   </div>
                   <Typography as="default" size="XXL" bold>
-                    {item.title}
+                    {item?.title}
                   </Typography>
                 </div>
               ))}
