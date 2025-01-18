@@ -3,7 +3,7 @@
 import { Section } from "@/app/components/Section";
 import { Container } from "@/app/components/Container";
 import { partners_data } from "@/app/data";
-import { Card } from "./components/Card";
+import { Card } from "../components/Card";
 
 export const Partners = () => {
   return (

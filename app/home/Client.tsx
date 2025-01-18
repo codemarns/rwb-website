@@ -1,9 +1,9 @@
 "use client";
 
-import { Hero } from "./section/hero/Hero";
-import { Features } from "./section/features/Features";
-import { Products } from "./section/products/Products";
-import { Partners } from "./section/partners/Partners";
+import { Features } from "./sections/features/Features";
+import { Products } from "./sections/products/Products";
+import { Partners } from "./sections/partners/Partners";
+import { Hero } from "./sections/hero/Hero";
 
 export const Client = () => {
   return (

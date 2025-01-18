@@ -1,7 +1,7 @@
 "use client";
 
-import { Hero } from "./section/Hero";
-import { Partners } from "./section/Partners";
+import { Hero } from "./sections/Hero";
+import { Partners } from "./sections/Partners";
 
 export const Client = () => {
   return (
