@@ -1,3 +1,5 @@
+import { Client } from "./Client";
+
 export default function Partners() {
-  return <div>Partners</div>;
+  return <Client />;
 }

@@ -11,7 +11,7 @@ import { home_product_data } from "@/app/data";
 export const Products = () => {
   return (
     <Section
-      id="products-section"
+      id="home-products-section"
       className="relative py-40 md:py-52 xl:py-64 flex items-center justify-center bg-accent-500"
     >
       <Overlay />

@@ -2,14 +2,17 @@
 
 import Image from "next/image";
 import Slider from "react-slick";
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/components/Button";
 import { Section } from "@/app/components/Section";
 import { Heading } from "@/app/components/Heading";
 import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
-import { home_sports_data } from "@/app/data";
+import { partners_data } from "@/app/data";
 
 export const Partners = () => {
+  const router = useRouter();
+
   const settings = {
     dots: false,
     infinite: true,
@@ -66,7 +69,7 @@ export const Partners = () => {
 
   return (
     <Section
-      id="partners-section"
+      id="home-partners-section"
       className="pt-40 md:pt-52 xl:pt-64 flex flex-col items-center justify-center gap-12 sm:gap-14 lg:gap-16 bg-white"
     >
       <Container className="space-y-12 sm:space-y-14 lg:space-y-16">
@@ -80,20 +83,25 @@ export const Partners = () => {
               fostering growth and excellence in every partnership.
             </Typography>
           </div>
-          <Button size="XL" variant="solid" className="w-52 sm:w-60">
+          <Button
+            size="XL"
+            variant="solid"
+            className="w-52 sm:w-60"
+            onClick={() => router.push("/partners")}
+          >
             See More
           </Button>
         </div>
 
         <div className="md:hidden relative grid grid-cols-2 sm:grid-cols-3">
-          {home_sports_data.slice(0, 12).map((item, index) => (
+          {partners_data.slice(0, 12).map((item, index) => (
             <div key={index} className="flex items-center justify-center">
               <div className="h-28 w-48 p-2 flex items-center justify-center">
                 <Image
                   priority
                   width={192}
                   height={112}
-                  alt={item.alt}
+                  alt={item.title}
                   src={item.image}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
@@ -105,14 +113,14 @@ export const Partners = () => {
 
       <div className="hidden md:block slider-container relative w-[calc(100%+2rem)] sm:w-[calc(100%+3rem)] lg:w-[calc(100%+4rem)]">
         <Slider {...settings} className="relative">
-          {home_sports_data.map((item, index) => (
+          {partners_data.map((item, index) => (
             <div key={index} className="flex items-center justify-center">
               <div className="h-28 w-48 p-2 flex items-center justify-center">
                 <Image
                   priority
                   width={192}
                   height={112}
-                  alt={item.alt}
+                  alt={item.title}
                   src={item.image}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
@@ -123,14 +131,14 @@ export const Partners = () => {
       </div>
       <div className="hidden md:block slider-container relative w-[calc(100%+2rem)] sm:w-[calc(100%+3rem)] lg:w-[calc(100%+4rem)]">
         <Slider {...rtlSettings} className="relative">
-          {home_sports_data.map((item, index) => (
+          {partners_data.map((item, index) => (
             <div key={index} className="flex items-center justify-center">
               <div className="h-28 w-48 p-2 flex items-center justify-center">
                 <Image
                   priority
                   width={192}
                   height={112}
-                  alt={item.alt}
+                  alt={item.title}
                   src={item.image}
                   className="object-center object-contain grayscale hover:grayscale-0"
                 />
@@ -143,7 +151,7 @@ export const Partners = () => {
       {/* auto-infinite thumbnail slider for desktop */}
       <div className="hidden relative h-auto lg:h-60 w-[calc(100%+2rem)] sm:w-[calc(100%+3rem)] lg:w-[calc(100%+4rem)] space-y-4 overflow-hidden">
         <div className="slide-to-left absolute top-0 left-0 h-28 w-[8640px] flex items-center gap-4">
-          {home_sports_data.map((item, index) => (
+          {partners_data.map((item, index) => (
             <div
               key={index}
               className="h-auto w-48 flex items-center justify-center"
@@ -152,7 +160,7 @@ export const Partners = () => {
                 priority
                 width={192}
                 height={112}
-                alt={item.alt}
+                alt={item.title}
                 src={item.image}
                 className="object-contain grayscale hover:grayscale-0"
               />
@@ -161,7 +169,7 @@ export const Partners = () => {
         </div>
 
         <div className="slide-to-left absolute top-0 left-0 h-28 w-[8640px] flex items-center gap-4">
-          {home_sports_data.map((item, index) => (
+          {partners_data.map((item, index) => (
             <div
               key={index}
               className="h-auto w-48 flex items-center justify-center"
@@ -170,7 +178,7 @@ export const Partners = () => {
                 priority
                 width={192}
                 height={112}
-                alt={item.alt}
+                alt={item.title}
                 src={item.image}
                 className="object-contain grayscale hover:grayscale-0"
               />
@@ -179,7 +187,7 @@ export const Partners = () => {
         </div>
 
         <div className="slide-to-right absolute top-32 -left-[6720px] h-28 w-[8640px] hidden lg:flex items-center gap-4">
-          {home_sports_data.map((item, index) => (
+          {partners_data.map((item, index) => (
             <div
               key={index}
               className="h-auto w-48 flex items-center justify-center"
@@ -188,7 +196,7 @@ export const Partners = () => {
                 priority
                 width={192}
                 height={112}
-                alt={item.alt}
+                alt={item.title}
                 src={item.image}
                 className="object-contain grayscale hover:grayscale-0"
               />

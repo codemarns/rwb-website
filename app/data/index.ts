@@ -1,4 +1,4 @@
-import { KeyFeatureProps, MenuProps } from "../types/types";
+import { KeyFeatureProps, MenuProps, PartnersProps } from "../types/types";
 
 export const header_menu: MenuProps[] = [
   {
@@ -87,250 +87,250 @@ export const home_product_data: KeyFeatureProps[] = [
   },
 ];
 
-export const home_sports_data = [
+export const partners_data: PartnersProps[] = [
   {
     id: "",
-    alt: "",
+    title: "AE Sexy",
     image: "/partners/ae_sexy.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Allbet",
     image: "/partners/allbet.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Asia Gaming",
     image: "/partners/asia_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Bet Games TV",
     image: "/partners/bet_games_tv.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Betsoft",
     image: "/partners/betsoft.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Bigtime Gaming",
     image: "/partners/bigtime_gaming.png",
   },{
     id: "",
-    alt: "",
+    title: "BTI",
     image: "/partners/bti.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Databet",
     image: "/partners/databet.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Evolution",
     image: "/partners/evolution.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Ezugi",
     image: "/partners/ezugi.png",
   },
 
   {
     id: "",
-    alt: "",
+    title: "Fantasma",
     image: "/partners/fantasma.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Gamomat",
     image: "/partners/gamomat.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Habanero",
     image: "/partners/habanero.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Hotbets",
     image: "/partners/hotbets.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Iconic 21",
     image: "/partners/iconic21.png",
   },
   {
     id: "",
-    alt: "",
+    title: "JILI",
     image: "/partners/jili.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Kalamba Games",
     image: "/partners/kalamba_games.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Kiron Interactive",
     image: "/partners/kiron_interactive.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Live 88",
     image: "/partners/live88.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Mascot Gaming",
     image: "/partners/mascot_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "MG Live",
     image: "/partners/mg_live.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Microgaming",
     image: "/partners/microgaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "NETENT",
     image: "/partners/netent.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Nolimit City",
     image: "/partners/nolimit_city.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Pascal Gaming",
     image: "/partners/pascal_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "PG Soft",
     image: "/partners/pgsoft.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Play n GO",
     image: "/partners/play_n_GO.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Playgon",
     image: "/partners/playgon.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Playson",
     image: "/partners/playson.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Playtech",
     image: "/partners/playtech.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Paragmatic Play",
     image: "/partners/pragmatic_play.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Push Gaming",
     image: "/partners/push_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "QTech",
     image: "/partners/qtech.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Red Tiger",
     image: "/partners/red_tiger.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Relax Gaming",
     image: "/partners/relax_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Revolver Gaming",
     image: "/partners/revolver_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "SA Gaming",
     image: "/partners/sa_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Smartsoft Gaming",
     image: "/partners/smartsoft_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Sportsradar",
     image: "/partners/sportsradar.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Spribe",
     image: "/partners/spribe.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Thunderkick",
     image: "/partners/thunderkick.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Tom Horn",
     image: "/partners/tom_horn.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Triple PG",
     image: "/partners/triple_pg.png",
   },
   {
     id: "",
-    alt: "",
+    title: "TV Bet",
     image: "/partners/tvbet.png",
   },
   {
     id: "",
-    alt: "",
+    title: "TXODDS",
     image: "/partners/txodds.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Vivo Gaming",
     image: "/partners/vivo_gaming.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Wazdan",
     image: "/partners/wazdan.png",
   },
   {
     id: "",
-    alt: "",
+    title: "Woohoo",
     image: "/partners/woohoo.png",
   },
   {
     id: "",
-    alt: "",
+    title: "YGGDRASIL",
     image: "/partners/yggdrasil.png",
   },
 ]

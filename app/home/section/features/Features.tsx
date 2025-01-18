@@ -12,7 +12,7 @@ import { home_key_feature_data } from "@/app/data";
 export const Features = () => {
   return (
     <Section
-      id="features-section"
+      id="home-features-section"
       className="relative pb-40 md:pb-52 xl:pb-64 flex items-center justify-center bg-black"
     >
       <Image

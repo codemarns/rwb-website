@@ -9,7 +9,7 @@ import { VideoOverlay } from "./components/VideoOverlay";
 export const Hero = () => {
   return (
     <section
-      id="hero-section"
+      id="home-hero-section"
       className="relative h-screen w-full bg-black flex items-center justify-center"
     >
       <VideoOverlay />

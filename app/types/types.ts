@@ -10,3 +10,9 @@ export type KeyFeatureProps = {
   title: string;
   description: string;
 }
+
+export type PartnersProps = {
+  id: string;
+  image: string;
+  title: string;
+}
