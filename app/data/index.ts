@@ -1,4 +1,4 @@
-import { KeyFeatureProps, MenuProps, PartnersProps } from "../types/types";
+import { FeatureHighlightProps, KeyFeatureProps, MenuProps, PartnersProps, ProductsProps } from "../types/types";
 
 export const header_menu: MenuProps[] = [
   {
@@ -60,32 +60,75 @@ export const home_key_feature_data: KeyFeatureProps[] = [
   },
 ];
 
-export const home_product_data: KeyFeatureProps[] = [
+export const home_product_data: ProductsProps[] = [
   {
     id: "live-casino",
     title: "Live Casino",
     description: `With our strong portfolio, your live casino section has already a powerful upper hand among your competitors.`,
     image: "/home-live-casino.png",
+    icon: "/live-casino-icon.svg"
   },
   {
     id: "slots",
     title: "Slots",
     description: `Offering over a hundred providers with loads of exciting games, you could fully customize and strategize your website to further target and reach more players.`,
     image: "/home-slots.png",
+    icon: "/slots-icon.svg"
   },
   {
     id: "sportbooks",
     title: "Sportbooks",
     description: `Modern interface, wide sports coverage, convenient live streaming options and loads of personalization to meet your market strategy requirements.`,
     image: "/home-sportbooks.png",
+    icon: "/sportsbook-icon.svg"
   },
   {
     id: "esports",
     title: "Esports",
     description: `State-of-the-art design, major tournament coverages, user-friendly interface, multi-channel live streaming and a whole lot of customizations.`,
     image: "/home-esports.png",
+    icon: "/esports-icon.svg"
   },
 ];
+
+export const feature_highlight_data: FeatureHighlightProps[] = [
+  {
+    id: "dynamic-layout-builder",
+    title: "Dynamic Layout Builder",
+    icon: "/dynamic-layout-builder.svg",
+    image: "/dynamic-layout-builder.png",
+    description:"This powerful feature puts customization in your hands—no coding required. It streamlines how you design pages and rearrange content, letting you adapt on the fly without missing a beat. From quick tweaks to total overhauls, this flexible feature empowers you to keep your layouts fresh, consistent, and perfectly aligned with changing needs or creative visions."
+  },
+  {
+    id: "crm-management",
+    title: "CRM Management",
+    icon: "/crm-management.svg",
+    image: "/crm-management.png",
+    description:"Our robust CRM management feature centralizes all your customer data, simplifying how you track interactions, manage leads, and foster long-term relationships. By automating routine tasks and providing valuable insights, it frees your team to focus on personalized service—boosting efficiency, closing deals faster, and keeping customers delighted every step of the way."
+  },
+  {
+    id: "affiliate-tools",
+    title: "Affiliate Tools",
+    icon: "/affiliate-tools.svg",
+    image: "/affiliate-tools.png",
+    description:"The affiliate management feature centralizes all your affiliate partnerships, streamlining payouts and performance tracking in one intuitive hub. By providing real-time analytics and automated commission calculations, it simplifies oversight, reduces errors, and cultivates stronger relationships with your partners—ultimately expanding your reach and boosting revenue growth."
+  },
+  {
+    id: "automatic-kyc-and-aml-solutions",
+    title: "Automatic KYC and AML Solutions",
+    icon: "/automatic-kyc-and-aml-solutions.svg",
+    image: "/automatic-kyc-and-aml-solutions.png",
+    description:"The feature ensures you stay compliant with regulations while protecting your business from fraud and financial crime. By verifying customer identities and monitoring transactions in real time, it reduces risk, safeguards your reputation, and fosters trust in your platform—resulting in a more secure and credible setup for all."
+  },
+  {
+    id: "iframe-and-white-label-solutions",
+    title: "Iframe and White-Label Solutions",
+    icon: "/iframe-and-white-label-solutions.svg",
+    image: "/iframe-and-white-label-solutions.png",
+    description:"Our iframe integration lets you effortlessly embed external functionalities into your existing platform, minimizing development time while maximizing user engagement. Meanwhile, our robust White-Label solution ensures everything appears under your own brand, delivering a seamless experience for customers and reinforcing your identity promptly."
+  },
+];
+
 
 export const partners_data: PartnersProps[] = [
   {

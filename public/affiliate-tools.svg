@@ -1,0 +1,52 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
+<rect x="4" y="4" width="56" height="56" fill="white"/>
+</mask>
+<g mask="url(#mask0_482_2151)">
+<path opacity="0.7" d="M32.0001 15.5V32M32.0001 32V48.5M32.0001 32H15.5M32.0001 32H48.5M32.0001 32L46.5001 17.5M32.0001 32L17.5001 46.5M32.0001 32L17.5 17.5M32.0001 32L46.5001 46.5" stroke="#EE2D2A" stroke-width="1.5"/>
+<circle cx="32" cy="12" r="3.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<circle cx="32" cy="52" r="3.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<circle cx="52" cy="32" r="3.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<circle cx="12" cy="32" r="3.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<circle cx="52" cy="12" r="7.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<mask id="mask1_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="45" y="5" width="14" height="14">
+<rect x="45.3335" y="5.33337" width="13.3333" height="13.3333" rx="6.66667" fill="white"/>
+</mask>
+<g mask="url(#mask1_482_2151)">
+<path d="M52.0003 14C53.8412 14 55.3336 12.5076 55.3336 10.6667C55.3336 8.82575 53.8412 7.33337 52.0003 7.33337C50.1594 7.33337 48.667 8.82575 48.667 10.6667C48.667 12.5076 50.1594 14 52.0003 14Z" fill="#EE2D2A"/>
+<path d="M51.9998 14.8889C54.9545 14.8889 57.3331 16.1774 57.3331 17.7778V20.6667H46.6665V17.7778C46.6665 16.1774 49.0452 14.8889 51.9998 14.8889Z" fill="#EE2D2A"/>
+</g>
+<circle cx="12" cy="52" r="7.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<mask id="mask2_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="45" width="14" height="14">
+<rect x="5.3335" y="45.3334" width="13.3333" height="13.3333" rx="6.66667" fill="white"/>
+</mask>
+<g mask="url(#mask2_482_2151)">
+<path d="M12.0003 54C13.8412 54 15.3336 52.5076 15.3336 50.6667C15.3336 48.8258 13.8412 47.3334 12.0003 47.3334C10.1594 47.3334 8.66699 48.8258 8.66699 50.6667C8.66699 52.5076 10.1594 54 12.0003 54Z" fill="#EE2D2A"/>
+<path d="M11.9998 54.8889C14.9545 54.8889 17.3331 56.1774 17.3331 57.7778V60.6667H6.6665V57.7778C6.6665 56.1774 9.04516 54.8889 11.9998 54.8889Z" fill="#EE2D2A"/>
+</g>
+<circle cx="52" cy="52" r="7.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<mask id="mask3_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="45" y="45" width="14" height="14">
+<rect x="45.3335" y="45.3334" width="13.3333" height="13.3333" rx="6.66667" fill="white"/>
+</mask>
+<g mask="url(#mask3_482_2151)">
+<path d="M52.0003 54C53.8412 54 55.3336 52.5076 55.3336 50.6667C55.3336 48.8258 53.8412 47.3334 52.0003 47.3334C50.1594 47.3334 48.667 48.8258 48.667 50.6667C48.667 52.5076 50.1594 54 52.0003 54Z" fill="#EE2D2A"/>
+<path d="M51.9998 54.8889C54.9545 54.8889 57.3331 56.1774 57.3331 57.7778V60.6667H46.6665V57.7778C46.6665 56.1774 49.0452 54.8889 51.9998 54.8889Z" fill="#EE2D2A"/>
+</g>
+<circle cx="12" cy="12" r="7.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<mask id="mask4_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5" width="14" height="14">
+<rect x="5.3335" y="5.33337" width="13.3333" height="13.3333" rx="6.66667" fill="white"/>
+</mask>
+<g mask="url(#mask4_482_2151)">
+<path d="M12.0003 14C13.8412 14 15.3336 12.5076 15.3336 10.6667C15.3336 8.82575 13.8412 7.33337 12.0003 7.33337C10.1594 7.33337 8.66699 8.82575 8.66699 10.6667C8.66699 12.5076 10.1594 14 12.0003 14Z" fill="#EE2D2A"/>
+<path d="M11.9998 14.8889C14.9545 14.8889 17.3331 16.1774 17.3331 17.7778V20.6667H6.6665V17.7778C6.6665 16.1774 9.04516 14.8889 11.9998 14.8889Z" fill="#EE2D2A"/>
+</g>
+</g>
+<circle cx="32" cy="32" r="11.25" fill="black" stroke="#EE2D2A" stroke-width="1.5"/>
+<mask id="mask5_482_2151" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="22" y="22" width="20" height="20">
+<rect x="22" y="22" width="20" height="20" rx="10" fill="white"/>
+</mask>
+<g mask="url(#mask5_482_2151)">
+<path d="M32.0005 34.9999C34.7619 34.9999 37.0004 32.7614 37.0004 30C37.0004 27.2386 34.7619 25 32.0005 25C29.2391 25 27.0005 27.2386 27.0005 30C27.0005 32.7614 29.2391 34.9999 32.0005 34.9999Z" fill="white"/>
+<path d="M32 36.3334C36.4319 36.3334 39.9999 38.266 39.9999 40.6667V45H24V40.6667C24 38.266 27.568 36.3334 32 36.3334Z" fill="white"/>
+</g>
+</svg>

@@ -14,7 +14,7 @@ export const Footer = () => {
   const router = useRouter();
 
   return (
-    <footer className="h-auto w-full bg-gradient-to-b from-primary-950 to-neutral-950">
+    <footer className="relative z-[1] h-auto w-full bg-gradient-to-b from-primary-950 to-neutral-950">
       <Section id="footer" className="bg-black/20">
         {/* Grid Column: START */}
         <Container className="grid grid-cols-12 lg:gap-x-4 gap-y-10">

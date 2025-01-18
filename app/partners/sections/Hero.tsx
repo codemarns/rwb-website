@@ -11,7 +11,7 @@ export const Hero = () => {
       id="partners-hero-section"
       className="relative py-40 md:py-44 xl:py-48 flex items-center justify-center bg-black"
     >
-      <Container className="relative max-w-3xl p-4 sm:p-6 lg:p-8">
+      <Container className="relative max-w-3xl">
         <div className="space-y-8">
           <Heading as="h1" className="text-center">
             Our Partners

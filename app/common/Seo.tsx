@@ -10,12 +10,12 @@ export const Seo = () => {
   return (
     <Section
       id="seo-section"
-      className="flex items-center justify-center bg-primary-50"
+      className="relative z-[1] flex items-center justify-center bg-primary-50"
     >
       <Container className="max-w-5xl space-y-12 sm:space-y-14 lg:space-y-16">
         <div className="space-y-6 sm:space-y-9 lg:space-y-12">
           <div className="space-y-4 sm:space-y-5 text-center">
-            <Heading as="h2" theme="light">
+            <Heading as="h3" theme="light">
               Your Gateway to Aggregated Solutions
             </Heading>
             <Typography as="default" size="XL" theme="light" bold>

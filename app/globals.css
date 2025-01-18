@@ -75,6 +75,16 @@ p.XS {
 
 /* ============ Product Section Pattern: END ============ */
 
+/* ============ Feature Highlight: START   ============ */
+
+#partners-feature-highlight-section #container:nth-child(even) > #asset {
+  @apply xl:col-start-2 xl:col-end-3;
+}
+#partners-feature-highlight-section #container:nth-child(even) > #details {
+  @apply xl:col-start-1 xl:col-end-2;
+}
+
+/* ============ Feature Highlight: END ============ */
 
 
 #partners-section .slide-to-left {
