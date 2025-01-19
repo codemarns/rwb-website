@@ -6,7 +6,7 @@ import { Section } from "@/app/components/Section";
 import { Heading } from "@/app/components/Heading";
 import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
-import { home_product_data } from "@/app/data";
+import { products_data } from "@/app/data";
 
 export const Products = () => {
   return (
@@ -32,7 +32,7 @@ export const Products = () => {
         </div>
 
         <div className="flex-1 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-8">
-          {home_product_data.map((item, index) => (
+          {products_data.map((item, index) => (
             <Card key={index} {...item} />
           ))}
         </div>

@@ -40,3 +40,9 @@ export type CommonFeatureProps = {
   icon?: string;
   image?: string;
 }
+
+export type TProductsProps = CommonFeatureProps & {
+  prod_image?: string;
+  pattern_image?: string;
+  slug?: string
+}

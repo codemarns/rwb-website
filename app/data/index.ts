@@ -1,4 +1,4 @@
-import { CommonFeatureProps, MenuProps } from "../types/types";
+import { CommonFeatureProps, MenuProps, TProductsProps } from "../types/types";
 
 export const header_menu: MenuProps[] = [
   {
@@ -60,34 +60,46 @@ export const home_key_feature_data: CommonFeatureProps[] = [
   },
 ];
 
-export const home_product_data: CommonFeatureProps[] = [
+export const products_data: TProductsProps[] = [
   {
     id: "live-casino",
     title: "Live Casino",
     description: `With our strong portfolio, your live casino section has already a powerful upper hand among your competitors.`,
+    icon: "/live-casino-icon.svg",
     image: "/home-live-casino.png",
-    icon: "/live-casino-icon.svg"
+    prod_image: "/product-live-casino-img.png",
+    pattern_image: "/single-blurred-pattern.svg",
+    slug: "/products/live-casino"
   },
   {
     id: "slots",
     title: "Slots",
     description: `Offering over a hundred providers with loads of exciting games, you could fully customize and strategize your website to further target and reach more players.`,
     image: "/home-slots.png",
-    icon: "/slots-icon.svg"
+    icon: "/slots-icon.svg",
+    prod_image: "/product-slots-img.png",
+    pattern_image: "/single-blurred-pattern.svg",
+    slug: "/products/slots"
   },
   {
-    id: "sportbooks",
-    title: "Sportbooks",
+    id: "sportsbook",
+    title: "Sportsbook",
     description: `Modern interface, wide sports coverage, convenient live streaming options and loads of personalization to meet your market strategy requirements.`,
     image: "/home-sportbooks.png",
-    icon: "/sportsbook-icon.svg"
+    icon: "/sportsbook-icon.svg",
+    prod_image: "/product-sportsbook-img.png",
+    pattern_image: "/single-blurred-pattern.svg",
+    slug: "/products/sportbooks"
   },
   {
     id: "esports",
     title: "Esports",
     description: `State-of-the-art design, major tournament coverages, user-friendly interface, multi-channel live streaming and a whole lot of customizations.`,
     image: "/home-esports.png",
-    icon: "/esports-icon.svg"
+    icon: "/esports-icon.svg",
+    prod_image: "/product-esports-img.png",
+    pattern_image: "/single-blurred-pattern.svg",
+    slug: "/products/esports"
   },
 ];
 

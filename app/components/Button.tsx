@@ -28,6 +28,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
 
   const baseClasses = cn(
     "BUTTON",
+    size,
     root.base,
     root.sizes[size],
     root.variants[variant].base,

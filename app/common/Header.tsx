@@ -97,7 +97,7 @@ export const Header = () => {
           </Link>
 
           <div className="flex items-center justify-center gap-4 lg:gap-5">
-            <nav className="ml-auto hidden lg:flex">
+            <nav className="ml-auto hidden min-[1180px]:flex">
               <ul className="flex items-center justify-center gap-2 uppercase">
                 {header_menu.map((item, index) => (
                   <li key={index} className="flex">
@@ -127,7 +127,7 @@ export const Header = () => {
               Request A Demo
             </Button>
 
-            <div className="w-10 h-10 lg:hidden flex items-center justify-center bg-accent-500 rounded">
+            <div className="w-10 h-10 min-[1180px]:hidden flex items-center justify-center bg-accent-500 rounded">
               <Bars3BottomRightIcon
                 className="size-8 block text-white"
                 onClick={() => setOpenSideMenu(!openSideMenu)}

@@ -20,27 +20,27 @@ h4 {
   font-size: clamp(1.35rem, calc(4vw + 0.51rem), 1.875rem);
 }
 
-h5, p.XXL {
+h5, p.XXL, a.XXL {
   font-size: clamp(1.175rem, calc(4vw + 0.34rem), 1.5rem);
 }
 
-h6, p.XL {
+h6, p.XL, a.XL, button.XL {
   font-size: clamp(1rem, calc(4vw + 0.17rem), 1.25rem);
 }
 
-p.LG {
+p.LG, a.LG, button.LG {
   font-size: clamp(0.93rem, calc(4vw + 0.155rem), 1.125rem);
 }
 
-p.MD {
+p.MD, a.MD, button.MD {
   font-size: clamp(0.87rem, calc(4vw + 0.14rem), 1rem);
 }
 
-p.SM {
+p.SM, a.SM, button.SM {
   font-size: clamp(0.81rem, calc(4vw + 0.125rem), 0.875rem);
 }
 
-p.XS {
+p.XS, a.XS {
   font-size: clamp(0.75rem, calc(4vw + 0.11rem), 0.75rem);
 }
 
@@ -77,14 +77,52 @@ p.XS {
 
 /* ============ Feature Highlight: START   ============ */
 
-#partners-feature-highlight-section #container:nth-child(even) > #asset {
+#feature-highlights-section #container:nth-child(even) > #asset {
   @apply xl:col-start-2 xl:col-end-3;
 }
-#partners-feature-highlight-section #container:nth-child(even) > #details {
+#feature-highlights-section #container:nth-child(even) > #details {
   @apply xl:col-start-1 xl:col-end-2;
 }
 
 /* ============ Feature Highlight: END ============ */
+
+
+/* ============ Products Page: START   ============ */
+
+#live-casino-product-section {
+  @apply bg-[radial-gradient(circle_at_65%,#991D1A,#0D0D0D_80%)];
+}
+#slots-product-section {
+  @apply bg-[radial-gradient(circle_at_65%,#A4380A,#0D0D0D_80%)];
+}
+#sportsbook-product-section {
+  @apply bg-[radial-gradient(circle_at_65%,#64A2FF,#0D0D0D_80%)];
+}
+#esports-product-section {
+  @apply bg-[radial-gradient(circle_at_65%,#014B4E,#0D0D0D_80%)];
+}
+
+.products-page-product-section:nth-child(odd) #container {
+  @apply xl:grid-cols-[36rem,_minmax(36rem,_1fr)];
+}
+.products-page-product-section:nth-child(odd) #container > #details {
+  @apply col-start-1 col-end-2;
+}
+.products-page-product-section:nth-child(odd) #container > #asset {
+  @apply col-start-1 col-end-2 xl:col-start-2 xl:col-end-3;
+}
+
+.products-page-product-section:nth-child(even) #container {
+  @apply xl:grid-cols-[minmax(36rem,_1fr),_36rem];
+}
+.products-page-product-section:nth-child(even) #container > #details {
+  @apply col-start-1 col-end-2 xl:col-start-2 xl:col-end-3;
+}
+.products-page-product-section:nth-child(even) #container > #asset {
+  @apply col-start-1 col-end-2;
+}
+
+/* ============ Products Page: END ============ */
 
 
 #partners-section .slide-to-left {

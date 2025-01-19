@@ -7,7 +7,7 @@ import { Section } from "@/app/components/Section";
 import { Heading } from "@/app/components/Heading";
 import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
-import { home_product_data } from "@/app/data";
+import { products_data } from "@/app/data";
 
 export const Hero = () => {
   const router = useRouter();
@@ -50,7 +50,7 @@ export const Hero = () => {
             </Typography>
 
             <div className="pt-2 md:pt-4 hidden sm:grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {home_product_data.map((item, index) => (
+              {products_data.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="h-16 w-16 hidden md:flex items-center justify-center">
                     <Image

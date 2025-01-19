@@ -10,7 +10,7 @@ import { feature_highlight_data } from "@/app/data";
 export const FeatureHighlights = () => {
   return (
     <Section
-      id="partners-feature-highlight-section"
+      id="feature-highlights-section"
       className="space-y-16 md:space-y-20 xl:space-y-24 2xl:space-y-32 xl:!pt-0"
     >
       <Container className="relative grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-16 lg:gap-24 xl:gap-32">
@@ -85,6 +85,7 @@ export const FeatureHighlights = () => {
               className="object-contain"
             />
           </div>
+
           <div
             id="details"
             className="xl:row-start-1 flex items-center justify-center"

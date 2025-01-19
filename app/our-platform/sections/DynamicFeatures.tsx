@@ -10,7 +10,7 @@ import { dynamic_feature_data } from "@/app/data";
 
 export const DynamicFeatures = () => {
   return (
-    <Section id="partners-feature-highlight-section" className="">
+    <Section id="dynamic-features-section" className="">
       <Container className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
         <div className="col-start-1 xl:col-start-2 ol-end-2 md:col-end-3 xl:row-start-1 xl:row-end-2 max-w-screen-md mx-auto space-y-4 sm:space-y-8 text-center">
           <Heading as="h2">Dynamic Features</Heading>
