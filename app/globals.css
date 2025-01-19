@@ -32,7 +32,7 @@ p.LG, a.LG, button.LG {
   font-size: clamp(0.93rem, calc(4vw + 0.155rem), 1.125rem);
 }
 
-p.MD, a.MD, button.MD {
+p.MD, a.MD, button.MD, label {
   font-size: clamp(0.87rem, calc(4vw + 0.14rem), 1rem);
 }
 

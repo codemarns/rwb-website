@@ -88,7 +88,7 @@ export const Product: React.FC<TProductProps> = (props) => {
           <Image
             width={921}
             height={588}
-            alt="Our Platform Background"
+            alt="Background Pattern"
             src={pattern_image || ""}
             className="object-contain w-[150%] max-w-[150%] absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-50 blur-[300px]"
           />
