@@ -41,8 +41,16 @@ export type CommonFeatureProps = {
   image?: string;
 }
 
+type TDetailsProps = {
+  overline: string;
+  headline: string;
+  subheadline: string;
+}
+
 export type TProductsProps = CommonFeatureProps & {
   prod_image?: string;
   pattern_image?: string;
-  slug?: string
+  slug?: string;
+  details?: TDetailsProps;
+  features?: CommonFeatureProps[]
 }

@@ -1,11 +1,14 @@
 "use client";
 
-import { Hero } from "./sections/Hero";
+import { products_data } from "@/app/data";
+import { Product } from "@/app/components/Product";
 
 export const Client = () => {
   return (
     <>
-      <Hero />
+      {products_data.map((item, index) => {
+        return <Product key={index} data={item} page={true} showBtn={true} />;
+      })}
     </>
   );
 };
