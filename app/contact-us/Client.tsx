@@ -20,6 +20,8 @@ export const Client = () => {
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    // do something here...
     alert("Successfully submitted!");
   };
 
