@@ -586,3 +586,21 @@ export const partners_data: CommonFeatureProps[] = [
     image: "/partners/yggdrasil.png",
   },
 ]
+
+export const core_values_data = [
+  {
+    id: "innovation-driven-excellence",
+    title: "Innovation-Driven Excellence",
+    description: "At the heart of iGaming success lies a commitment to innovation. Leveraging cutting-edge technology, RWB Solutions International creates scalable, forward-thinking solutions that empower operators to remain competitive in a dynamic market. Collaborations with industry leaders like Evolution and PragmaticPlay ensure access to the latest advancements and premium content, helping operators stay ahead of the curve.",
+  },
+  {
+    id: "tailored-flexibility",
+    title: "Tailored Flexibility",
+    description: "Every iGaming business is unique, and RWB Solutions embraces this diversity by offering highly customizable solutions. From platform integrations to operational tools, flexibility ensures that operators can align the technology with their specific needs, driving greater engagement and operational efficiency. This adaptability allows businesses to seamlessly evolve with market trends and consumer preferences.",
+  },
+  {
+    id: "expertise-and-partnership",
+    title: "Expertise and Partnership",
+    description: "Success in the iGaming industry requires more than just great tools—it demands trusted guidance. RWB Solutions International prides itself on being a premier partner, combining deep industry knowledge with strategic insights to help operators thrive. With a customer-first approach and a dedication to building lasting relationships, RWB ensures businesses have the support they need to excel in a competitive landscape.",
+  }
+]
