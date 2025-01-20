@@ -13,7 +13,7 @@ export const Hero = () => {
   return (
     <section
       id="home-hero-section"
-      className="relative h-screen w-full bg-black flex items-center justify-center"
+      className="relative min-h-screen w-full py-24 bg-black flex items-center justify-center"
     >
       <VideoOverlay />
 
