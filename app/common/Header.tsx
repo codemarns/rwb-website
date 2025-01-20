@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/app/lib/cn";
-import { Button } from "@/app/components/Button";
+import { ButtonV2 } from "@/app/components/ButtonV2";
 import { useEffect, useRef, useState } from "react";
 import { Container } from "@/app/components/Container";
 import { Typography } from "@/app/components/Typography";
@@ -120,12 +120,12 @@ export const Header = () => {
               </ul>
             </nav>
 
-            <Button
-              className="hidden sm:flex lg:ml-auto"
+            <ButtonV2
+              className="hidden sm:flex w-52"
               onClick={() => router.push("/contact-us")}
             >
               Request A Demo
-            </Button>
+            </ButtonV2>
 
             <div className="w-10 h-10 min-[1180px]:hidden flex items-center justify-center bg-accent-500 rounded">
               <Bars3BottomRightIcon
@@ -174,12 +174,15 @@ export const Header = () => {
           ))}
         </ul>
 
-        <Button
+        {/* <Button
           className="hidden sm:flex lg:ml-auto"
           onClick={() => router.push("/contact-us")}
         >
           Request A Demo
-        </Button>
+        </Button> */}
+        <button className="hover:brightness-110 font-bold py-3 px-6 rounded-full bg-accent-500 shadow-lg shadow-accent-500/50 text-white uppercase">
+          Request A Demo
+        </button>
       </aside>
     </>
   );
