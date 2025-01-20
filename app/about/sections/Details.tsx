@@ -25,7 +25,7 @@ export const Details = () => {
                   // width={423}
                   // height={564}
                   alt={""}
-                  src={"/home-live-casino.png"}
+                  src={"/about-us.png"}
                   className="h-auto w-full object-cover"
                 />
               </div>
